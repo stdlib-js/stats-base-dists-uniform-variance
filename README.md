@@ -246,7 +246,7 @@ int main( void ) {
 
     for ( i = 0; i < 25; i++ ) {
         a = random_uniform( 0.0, 20.0 );
-        b = random_uniform( 0.0, 20.0 ) + a;
+        b = random_uniform( a, a+20.0 );
         y = stdlib_base_dists_uniform_variance( a, b );
         printf( "a: %lf, b: %lf, Var(X;a,b): %lf\n", a, b, y );
     }
@@ -303,7 +303,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
