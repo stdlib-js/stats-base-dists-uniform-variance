@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-14)
+## Unreleased (2026-09-26)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`c276f7d`](https://github.com/stdlib-js/stdlib/commit/c276f7d02f9c0a04185f8175fe8956b8f350c5cd) - **test:** migrate `stats/base/dists/uniform/variance` to ULP-based assertions [(#15545)](https://github.com/stdlib-js/stdlib/pull/15545) _(by Devansh Patel)_
 -   [`f38e8a7`](https://github.com/stdlib-js/stdlib/commit/f38e8a7b433e0e9888eb57c83f4374073089ad85) - **docs:** clean-up parameters in Julia fixtures scripts _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Devansh Patel
 -   Philipp Burckhardt
 
 </section>
